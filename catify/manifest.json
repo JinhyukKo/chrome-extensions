@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 3,
+    "name" : "Catify",
+    "description" : "Choose a cat image to set as a background for all the pages you visit",
+    "version" : "1.0",
+    "icons"  : {
+        "16" : "images/logo.jpg",
+        "32" :  "images/logo.jpg",
+        "48" :  "images/logo.jpg",
+        "128" :  "images/logo.jpg"
+    },
+    "action" : {
+        "default_icon" : "images/logo.jpg",
+        "default_title" : "Catify",
+        "default_popup" : "popup/popup.html"
+    },
+    "permissions" : ["storage","downloads"]
+}
