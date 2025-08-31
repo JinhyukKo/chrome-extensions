@@ -4,13 +4,13 @@
     "description" : "Choose a cat image to set as a background for all the pages you visit",
     "version" : "1.0",
     "icons"  : {
-        "16" : "images/logo.jpg",
-        "32" :  "images/logo.jpg",
-        "48" :  "images/logo.jpg",
-        "128" :  "images/logo.jpg"
+        "16" : "images/logo.png",
+        "32" :  "images/logo.png",
+        "48" :  "images/logo.png",
+        "128" :  "images/logo.png"
     },
     "action" : {
-        "default_icon" : "images/logo.jpg",
+        "default_icon" : "images/logo.png",
         "default_title" : "Catify",
         "default_popup" : "popup/popup.html"
     },

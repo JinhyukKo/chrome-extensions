@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name" : "Adblock",
+    "version" : "1.0",
+    "description" :"Adblock Mocking",
+    "permissions" : ["webRequest", "declarativeNetRequest","tabs"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+        "service_worker" : "background.js"
+    },
+    "icons"  : {
+        "16" : "images/logo.png",
+        "32" :  "images/logo.png",
+        "48" :  "images/logo.png",
+        "128" :  "images/logo.png"
+    }
+}
